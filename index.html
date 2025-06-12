@@ -3,30 +3,269 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test GitHub Pages</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
-        .container {
-            text-align: center;
-            padding: 2rem;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-    </style>
+    <title>Jony Joel Cordero Sánchez - Ingeniero de Sistemas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Test GitHub Pages</h1>
-        <p>Si puedes ver esta página, GitHub Pages está funcionando correctamente.</p>
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label>
     </div>
+
+    <nav class="floating-nav">
+        <a href="#inicio" class="nav-item">
+            <i class="fas fa-home"></i>
+            <span>Inicio</span>
+        </a>
+        <a href="#resumen" class="nav-item">
+            <i class="fas fa-user"></i>
+            <span>Resumen</span>
+        </a>
+        <a href="#experiencia" class="nav-item">
+            <i class="fas fa-briefcase"></i>
+            <span>Experiencia</span>
+        </a>
+        <a href="#educacion" class="nav-item">
+            <i class="fas fa-graduation-cap"></i>
+            <span>Educación</span>
+        </a>
+        <a href="#certificaciones" class="nav-item">
+            <i class="fas fa-certificate"></i>
+            <span>Certificaciones</span>
+        </a>
+        <a href="#proyectos" class="nav-item">
+            <i class="fas fa-project-diagram"></i>
+            <span>Proyectos</span>
+        </a>
+        <a href="#habilidades" class="nav-item">
+            <i class="fas fa-code"></i>
+            <span>Habilidades</span>
+        </a>
+        <a href="#contacto" class="nav-item">
+            <i class="fas fa-envelope"></i>
+            <span>Contacto</span>
+        </a>
+    </nav>
+
+    <main class="container">
+        <header id="inicio" class="header">
+            <div class="profile-image">
+                <img src="foto.png" alt="Jony Joel Cordero Sánchez">
+            </div>
+            <div class="header-content">
+                <h1>Jony Joel Cordero Sánchez</h1>
+                <h2>Ingeniero de Sistemas – Desarrollador Backend</h2>
+                <div class="contact-info">
+                    <a href="mailto:jony_cs_24@hotmail.com"><i class="fas fa-envelope"></i> jony_cs_24@hotmail.com</a>
+                    <a href="tel:+51986458602"><i class="fas fa-phone"></i> 986 458 602</a>
+                    <a href="https://linkedin.com/in/jonycordero" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+                <p class="location"><i class="fas fa-map-marker-alt"></i> Pasaje Las Orquídeas 190, Ayacucho – Perú</p>
+            </div>
+        </header>
+
+        <section id="resumen" class="section profile">
+            <h2 class="section-title">Perfil Profesional</h2>
+            <p>Ingeniero de Sistemas con más de 4 años de experiencia desarrollando soluciones backend en Java Spring Boot, con conocimientos sólidos en arquitectura de microservicios, servidores Linux, bases de datos Oracle y MySQL, despliegues con Docker y diseño de APIs RESTful. Experiencia en el sector bancario, entidades públicas y desarrollo de sistemas personalizados para cooperativas y municipalidades.</p>
+        </section>
+
+        <section id="experiencia" class="section experience">
+            <h2 class="section-title">Experiencia Laboral</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Analista Programador Senior</h3>
+                        <h4>NTT DATA Perú</h4>
+                        <p class="date">Feb. 2023 – Actualidad | Ayacucho</p>
+                        <ul>
+                            <li>Diseño, planificación y desarrollo de APIs para Scotiabank</li>
+                            <li>Implementación de push notifications para cuenta payroll</li>
+                            <li>Tecnologías: Java Spring Boot, Oracle SQL Developer, WebSphere, Postman</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Desarrollador Backend</h3>
+                        <h4>CANVIA</h4>
+                        <p class="date">2021 - 2023 | Ayacucho</p>
+                        <ul>
+                            <li>Desarrollo de microservicios para el sector bancario</li>
+                            <li>Implementación de sistemas de autenticación y autorización</li>
+                            <li>Tecnologías: Java, Spring Boot, Docker, Kubernetes</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Desarrollador Full Stack</h3>
+                        <h4>Ministerio de Trabajo</h4>
+                        <p class="date">2020 - 2021 | Ayacucho</p>
+                        <ul>
+                            <li>Desarrollo de sistemas de gestión documental</li>
+                            <li>Implementación de APIs RESTful para integración de servicios</li>
+                            <li>Tecnologías: PHP, Laravel, MySQL, JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Desarrollador de Sistemas</h3>
+                        <h4>Cooperativa San Cristóbal</h4>
+                        <p class="date">2019 - 2020 | Ayacucho</p>
+                        <ul>
+                            <li>Desarrollo de sistema de voto electrónico</li>
+                            <li>Implementación de módulos de gestión administrativa</li>
+                            <li>Tecnologías: Java, Spring Boot, MySQL, Angular</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="educacion" class="section education">
+            <h2 class="section-title">Educación</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Ingeniería de Sistemas</h3>
+                        <h4>Universidad Nacional San Cristóbal de Huamanga</h4>
+                        <p class="date">2018</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Inglés Intermedio</h3>
+                        <h4>Instituto de Idiomas – UNSCH</h4>
+                        <p class="date">2018</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificaciones" class="section certifications">
+            <h2 class="section-title">Certificaciones</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <h3>Scrum Master</h3>
+                    <p>Scrum Alliance</p>
+                    <p class="date">2023 | 40 horas</p>
+                </div>
+                <div class="cert-card">
+                    <h3>DevOps Fundamentals</h3>
+                    <p>Linux Foundation</p>
+                    <p class="date">2022 | 60 horas</p>
+                </div>
+                <div class="cert-card">
+                    <h3>Fullstack Java Developer</h3>
+                    <p>Oracle</p>
+                    <p class="date">2021 | 120 horas</p>
+                </div>
+                <div class="cert-card">
+                    <h3>Cloud Computing</h3>
+                    <p>AWS</p>
+                    <p class="date">2020 | 80 horas</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="section projects">
+            <h2 class="section-title">Proyectos Realizados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Sistema de Control Biométrico</h3>
+                    <h4>UNSCH</h4>
+                    <p class="date">2018</p>
+                    <p>Desarrollo de sistema de control de asistencia mediante huella digital y reconocimiento facial.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Sistema de Planilla Electrónica</h3>
+                    <h4>Municipalidad de Pichari</h4>
+                    <p class="date">2020</p>
+                    <p>Implementación de sistema de gestión de planillas con integración a SUNAT.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Voto Electrónico</h3>
+                    <h4>Cooperativa San Cristóbal</h4>
+                    <p class="date">2021</p>
+                    <p>Desarrollo de plataforma de votación electrónica con blockchain y autenticación biométrica.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section skills">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Lenguajes y Frameworks</h3>
+                    <ul>
+                        <li>Java (Spring Boot, WebFlux)</li>
+                        <li>PHP Laravel</li>
+                        <li>JavaScript</li>
+                        <li>Angular & Vue</li>
+                        <li>HTML & CSS</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Bases de Datos</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>Oracle 12g</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>DevOps y Servidores</h3>
+                    <ul>
+                        <li>Docker</li>
+                        <li>AWS</li>
+                        <li>Linux (Ubuntu, CentOS)</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Redes y Otros</h3>
+                    <ul>
+                        <li>Mikrotik</li>
+                        <li>Configuración de antenas</li>
+                        <li>Cableado estructurado</li>
+                        <li>API REST</li>
+                        <li>JWT</li>
+                        <li>Microservicios</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section contact">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-grid">
+                <a href="mailto:jony_cs_24@hotmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>jony_cs_24@hotmail.com</span>
+                </a>
+                <a href="tel:+51986458602" class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>986 458 602</span>
+                </a>
+                <a href="https://linkedin.com/in/jonycordero" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>linkedin.com/in/jonycordero</span>
+                </a>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Pasaje Las Orquídeas 190, Ayacucho – Perú</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html> 
